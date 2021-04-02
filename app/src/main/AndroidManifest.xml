@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CurriculApp">
-        <activity android:name=".Profundizaciones" />
+        <activity android:name=".Profundizaciones"></activity>
         <activity android:name=".Configuracion" />
         <activity android:name=".Informacion" />
         <activity android:name=".Electivas" />

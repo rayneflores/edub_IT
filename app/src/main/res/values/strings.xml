@@ -10,11 +10,4 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_perfil">Perfil</string>
-    <string name="menu_miscursos">Mis cursos</string>
-    <string name="menu_optativas">Optativas</string>
-    <string name="menu_electivas">Electivas</string>
-    <string name="menu_informacion">Información</string>
-    <string name="menu_configuracion">Configuración</string>
-
- </resources>
+</resources>
