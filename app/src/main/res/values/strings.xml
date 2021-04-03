@@ -17,4 +17,7 @@
     <string name="menu_electivas">Electivas</string>
     <string name="menu_informacion">Información</string>
     <string name="menu_configuracion">Configuración</string>
+    <string name="menu_agregar">Agregar</string>
+
+
 </resources>
