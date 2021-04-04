@@ -1,11 +1,16 @@
 package com.edubit.curriculapp;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Toast;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -14,7 +19,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -43,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        NavigationView nav_view = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
@@ -57,5 +65,33 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+        case R.id.nav_perfil:
+            Toast.makeText(getApplicationContext(), R.string.menu_perfil, Toast.LENGTH_LONG). show();
+            break;
+        case R.id.nav_miscursos:
+            Toast.makeText(getApplicationContext(), R.string.menu_miscursos, Toast.LENGTH_LONG). show();
+            break;
+        case R.id.nav_optativas:
+            Toast.makeText(getApplicationContext(), R.string.menu_optativas, Toast.LENGTH_LONG). show();
+            break;
+        case R.id.nav_electivas:
+            Toast.makeText(getApplicationContext(), R.string.menu_electivas, Toast.LENGTH_LONG). show();
+            break;
+        case R.id.nav_informacion:
+            Toast.makeText(getApplicationContext(), R.string.menu_informacion, Toast.LENGTH_LONG). show();
+            break;
+        case R.id.nav_configuracion:
+            Toast.makeText(getApplicationContext(), R.string.menu_configuracion, Toast.LENGTH_LONG). show();
+            break;
+        default:
+            throw new IllegalArgumentException("Opción no existente");
+
+        }
+        return true;
     }
 }
