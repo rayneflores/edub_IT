@@ -6,4 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MisCursos">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi progreso"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="312dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi planificador"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiero cursar"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprobé"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiero inscribirme"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a mapa curricular"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="475dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
