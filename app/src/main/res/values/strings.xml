@@ -5,7 +5,7 @@
     <string name="nav_header_title">curriculApp</string>
     <string name="nav_header_subtitle">2021 edub_IT</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuración</string>
 
     <string name="menu_home">Menu</string>
     <string name="menu_gallery">Gallery</string>
@@ -19,5 +19,14 @@
     <string name="menu_configuracion">Configuración</string>
     <string name="menu_agregar">Agregar</string>
 
+    <string name="op_inicio_tap">Taller de arquitectura potencial</string>
+    <string name="op_inicio_pal">El proyecto de arquitectura y luz</string>
+    <string name="op_inicio_pd">Posproducción digital en el dibujo de la arquitectura</string>
+    <string name="op_inicio_acv">Re-Presentaciones. Arte y cultura visual (SXIX-XX-XXI)</string>
+    <string name="op_inicio_mpc">Métodos y procesos creativos</string>
+    <string name="op_inicio_dic">Diccionario operativo de recursos arquitectónicos</string>
+    <string name="op_inicio_pm">Pocitos moderno</string>
+    <string name="op_inicio_hd">Hibridación digital - Ideación y diseño</string>
+    <string name="op_inicio_mecymap">Mecanismos y mapeos</string>
 
 </resources>
