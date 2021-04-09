@@ -7,6 +7,7 @@
     tools:context=".Optativas">
 
     <include
+        android:id="@+id/include"
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,118 +20,119 @@
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_dic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="91dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="96dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_pal"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="128dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="115dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="op_inicio_hibdig"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="157dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/op_inicio_hibdig"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="op_inicio_lab"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="195dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/op_inicio_lab"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="153dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio5"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="op_inicio_mecymap"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="229dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/op_inicio_mecymap"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="172dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio6"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@strin/op_inicio_metod"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="261dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/op_inicio_metod"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio7"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_mpc"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="292dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="210dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_pm"
-        tools:layout_editor_absoluteY="324dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="229dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_popsup"
-        tools:layout_editor_absoluteY="353dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="248dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_posp_dig"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="383dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="267dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_acv"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="411dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="303dp" />
+
 
     <TextView
         android:id="@+id/textView_optativas_incio12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_tap"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="440dp"
-        tools:ignore="MissingConstraints" />
-
-
-
+        tools:layout_editor_absoluteY="322dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_mecymap"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="464dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="341dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
