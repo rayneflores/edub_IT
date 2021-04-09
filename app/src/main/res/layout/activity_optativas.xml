@@ -126,13 +126,13 @@
         tools:layout_editor_absoluteY="322dp" />
 
     <TextView
-        android:id="@+id/textView_optativas_incio13"
+        android:id="@+id/textView_optativas_libres1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/op_inicio_mecymap"
+        android:text="@string/op_libres_ai3"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteY="373dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
