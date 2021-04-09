@@ -9,14 +9,112 @@
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/"
-        android:layout_width="330dp"
-        android:layout_height="99dp"
-        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_posp_dig"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_metod"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_popsup"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="string/op_inicio_hibdig"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_tap"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_pal"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_pd"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_acv"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_mpc"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_dic"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_pm"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <TextView
+        android:id="@+id/hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_hd"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <TextView
+        android:id="@+id/mecymap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op_inicio_mecymap"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
