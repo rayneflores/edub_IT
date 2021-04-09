@@ -34,26 +34,38 @@
     <string name="op_inicio_tap">Taller de arquitectura potencial</string>
 
     ##optativas libres
-    <string name="op_libres_eco_urb">Economía urbana avanzada</string>
-    <string name="op_libres_arq_dig">Arquitecturas digitales</string>
-    <string name="op_libres_proy_av">Proyecto avanzado de estrcturas</string>
-    <string name="op_libres_croquis">Croquis: el dibujo a pulso</string>
-    <string name="op_libres_coop">Cooperativas de vivienda</string>
-    <string name="op_libres_zipp">Zipped</string>
-    <string name="op_libres_foro">Foro</string>
-    <string name="op_libres_amb_esc">Ambientes escolares</string>
-    <string name="op_libres_proy_amb">Proyectar ambiente</string>
-    <string name="op_libres_cyd_made">Construcción y diseño de madera</string>
-    <string name="op_libres_ficc_pol">Ficciones políticas. Géneros, aspectos y territorios</string>
-    <string name="op_libres_patol">Patologías frecuentes en la construcción</string>
-    <string name="op_libres_gest_prod">Gestión y producción de obra</string>
-    <string name="op_libres_arq_uru">Arquitectos uruguayos</string>
-    <string name="op_libres_prof_ae">Profundización en el análisis estructural</string>
-    <string name="op_libres_ae_gruphab">Análisis y evaluación de grupos habitacionales</string>
     <string name="op_libres_ai3">Acondicionamiento e Instalaciones 3</string>
-    <string name="op_libres_lab_mest">Laboratorio de morfologías estructurales</string>
-    <string name="op_libres_pre_proy">Precisión proyectual</string>
+    <string name="op_libres_amb_esc">Ambientes escolares</string>
+    <string name="op_libres_ae_gruphab">Análisis y evaluación de grupos habitacionales</string>
+    <string name="op_libres_arq_uru">Arquitectos uruguayos</string>
+    <string name="op_libres_arq_dig">Arquitecturas digitales</string>
     <string name="op_libres_agua_ciudad">Bordes agua-ciudad como espacio de intercambio</string>
+    <string name="op_libres_cyd_made">Construcción y diseño de madera</string>
+    <string name="op_libres_coop">Cooperativas de vivienda</string>
+    <string name="op_libres_croquis">Croquis: el dibujo a pulso</string>
+    <string name="op_libres_eco_urb">Economía urbana avanzada</string>
+    <string name="op_libres_ficc_pol">Ficciones políticas. Géneros, aspectos y territorios</string>
+    <string name="op_libres_foro">Foro</string>
+    <string name="op_libres_gest_prod">Gestión y producción de obra</string>
+    <string name="op_libres_lab_mest">Laboratorio de morfologías estructurales</string>
+    <string name="op_libres_patol">Patologías frecuentes en la construcción</string>
+    <string name="op_libres_pre_proy">Precisión proyectual</string>
+    <string name="op_libres_prof_ae">Profundización en el análisis estructural</string>
+    <string name="op_libres_proy_amb">Proyectar ambiente</string>
+    <string name="op_libres_proy_av">Proyecto avanzado de estrcturas</string>
+    <string name="op_libres_zipp">Zipped</string>
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="op_libres_re_act">Re Activa</string>
     <string name="op_libres_matrix">Matrix</string>
     <string name="op_libres_sal_lab_emer">Salida, laboratorio de emergencia</string>
