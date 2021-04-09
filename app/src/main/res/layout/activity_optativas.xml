@@ -14,8 +14,8 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/"
-        android:layout_width="match_parent"
+        android:id="@+id/posp_dig"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_posp_dig"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,8 +23,8 @@
         tools:layout_editor_absoluteY="91dp" />
 
     <TextView
-        android:id="@+id/"
-        android:layout_width="match_parent"
+        android:id="@+id/inicio_metod"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_metod"
         tools:layout_editor_absoluteX="-16dp"
