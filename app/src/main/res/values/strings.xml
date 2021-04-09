@@ -20,20 +20,18 @@
     <string name="menu_agregar">Agregar</string>
 
     ##optativas de inicio
-    <string name="op_inicio_posp_dig">Posproducción digital en el dibujo de la arquitectura</string>
-    <string name="op_inicio_lab">Laboratorio proyecto y materia</string>
-    <string name="op_inicio_metod">Metodologías proyectuales</string>
-    <string name="op_inicio_popsup">Pops-up, pequeños dispositivos de uso cotidiano</string>
-    <string name="op_inicio_hibdig">Hibridación digital - Ideación y diseño</string>
-    <string name="op_inicio_tap">Taller de arquitectura potencial</string>
-    <string name="op_inicio_pal">El proyecto de arquitectura y luz</string>
-    <string name="op_inicio_pd">Posproducción digital en el dibujo de la arquitectura</string>
-    <string name="op_inicio_acv">Re-Presentaciones. Arte y cultura visual (SXIX-XX-XXI)</string>
-    <string name="op_inicio_mpc">Métodos y procesos creativos</string>
     <string name="op_inicio_dic">Diccionario operativo de recursos arquitectónicos</string>
-    <string name="op_inicio_pm">Pocitos moderno</string>
-    <string name="op_inicio_hd">Hibridación digital - Ideación y diseño</string>
+    <string name="op_inicio_pal">El proyecto de arquitectura y luz</string>
+    <string name="op_inicio_hibdig">Hibridación digital - Ideación y diseño | 1er y 2do sem</string>
+    <string name="op_inicio_lab">Laboratorio proyecto y materia</string>
     <string name="op_inicio_mecymap">Mecanismos y mapeos</string>
+    <string name="op_inicio_metod">Metodologías proyectuales</string>
+    <string name="op_inicio_mpc">Métodos y procesos creativos</string>
+    <string name="op_inicio_pm">Pocitos moderno</string>
+    <string name="op_inicio_popsup">Pops-up, pequeños dispositivos de uso cotidiano</string>
+    <string name="op_inicio_posp_dig">Posproducción digital en el dibujo de la arquitectura | 1er y 2do sem</string>
+    <string name="op_inicio_acv">Re-Presentaciones. Arte y cultura visual (SXIX-XX-XXI)</string>
+    <string name="op_inicio_tap">Taller de arquitectura potencial</string>
 
     ##optativas libres
     <string name="op_libres_eco_urb">Economía urbana avanzada</string>
