@@ -20,6 +20,7 @@
     <string name="menu_agregar">Agregar</string>
 
     ##optativas de inicio
+    <string name="op_inicio_subtit">De inicio</string>
     <string name="op_inicio_dic">Diccionario operativo de recursos arquitectónicos</string>
     <string name="op_inicio_pal">El proyecto de arquitectura y luz</string>
     <string name="op_inicio_hibdig">Hibridación digital - Ideación y diseño | 1er y 2do sem</string>
@@ -34,6 +35,7 @@
     <string name="op_inicio_tap">Taller de arquitectura potencial</string>
 
     ##optativas libres
+    <string name="op_libres_subtit">Libres</string>
     <string name="op_libres_ai3">Acondicionamiento e Instalaciones 3</string>
     <string name="op_libres_amb_esc">Ambientes escolares</string>
     <string name="op_libres_ae_gruphab">Análisis y evaluación de grupos habitacionales</string>
