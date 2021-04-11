@@ -60,5 +60,16 @@
     <string name="op_libres_sal_lab_emer">Salida, laboratorio de emergencia</string>
     <string name="op_libres_zipp">Zipped</string>
 
+    ##perfil
+    <string name="perfil">Perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="autocad">Autocad</string>
+    <string name="tresdsmax">3ds max</string>
+    <string name="illustrator">Illustrator</string>
+    <string name="photoshop">Photoshop</string>
+    <string name="revit">Revit</string>
+    <string name="corel">Corel</string>
 
 </resources>
