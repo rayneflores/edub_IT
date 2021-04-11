@@ -10,4 +10,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="mi_progreso">Mi progreso</string>
+    <string name="mi_planificador">Mi planificador</string>
+    <string name="mapa_curricular">Mapa curricular</string>
+    <string name="quiero_cursar">Quiero cursar</string>
+    <string name="aprobe">Aprobé</string>
+    <string name="quiero_inscribirme">Quiero inscribirme</string>
+
 </resources>
