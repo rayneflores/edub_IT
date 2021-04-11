@@ -23,7 +23,8 @@
         android:text="Optativas"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="110dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/textView_optativas_de_inicio"
