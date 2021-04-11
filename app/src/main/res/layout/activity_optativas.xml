@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp" />
+        tools:layout_editor_absoluteY="-75dp" />
 
     <TextView
         android:id="@+id/textView_optativas_de_inicio"
@@ -26,17 +26,6 @@
         tools:layout_editor_absoluteY="67dp" />
 
     <TextView
-        android:id="@+id/textView_optativas_incio1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_dic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="96dp" />
-
-    <TextView
         android:id="@+id/textView_optativas_incio2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,40 +35,13 @@
         tools:layout_editor_absoluteY="115dp" />
 
     <TextView
-        android:id="@+id/textView_optativas_incio3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_hibdig"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="134dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_incio4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_lab"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="153dp" />
-
-    <TextView
         android:id="@+id/textView_optativas_incio5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_inicio_mecymap"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="172dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_incio6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_metod"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="191dp" />
+        tools:layout_editor_absoluteY="134dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio7"
@@ -88,7 +50,7 @@
         android:text="@string/op_inicio_mpc"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="210dp" />
+        tools:layout_editor_absoluteY="161dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio8"
@@ -97,34 +59,7 @@
         android:text="@string/op_inicio_pm"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="229dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_incio9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_popsup"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="248dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_incio10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_posp_dig"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="267dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_incio11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_inicio_acv"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="303dp" />
+        tools:layout_editor_absoluteY="190dp" />
 
     <TextView
         android:id="@+id/textView_optativas_incio12"
@@ -133,7 +68,7 @@
         android:text="@string/op_inicio_tap"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="322dp" />
+        tools:layout_editor_absoluteY="219dp" />
 
     <TextView
         android:id="@+id/op_libres"
@@ -141,33 +76,7 @@
         android:layout_height="wrap_content"
         android:text="@string/op_libres_subtit"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_ai3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="382dp" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_amb_esc"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="401dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_ae_gruphab"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="420dp"
+        tools:layout_editor_absoluteY="270dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -175,179 +84,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_libres_arq_uru"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="439dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_arq_dig"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="458dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_agua_ciudad"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="477dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_cyd_made"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="496dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_coop"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="515dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="302dp" />
 
     <TextView
         android:id="@+id/textView_optativas_libres9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_libres_croquis"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="534dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_eco_urb"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="553dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_ficc_pol"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="572dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_foro"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="591dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="335dp" />
 
     <TextView
         android:id="@+id/textView_optativas_libres13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_libres_gest_prod"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="610dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_lab_mest"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="629dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="364dp" />
 
     <TextView
         android:id="@+id/textView_optativas_libres15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_libres_matrix"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="648dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_patol"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="667dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_pre_proy"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="686dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_prof_ae"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="705dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_proy_amb"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="724dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_proy_av"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="746dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="394dp" />
 
     <TextView
         android:id="@+id/textView_optativas_libres21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/op_libres_re_act"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="765dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_sal_lab_emer"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="787dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView_optativas_libres23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/op_libres_zipp"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="803dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="430dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
