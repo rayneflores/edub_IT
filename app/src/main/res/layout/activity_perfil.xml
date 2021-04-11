@@ -6,15 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".Perfil">
 
+
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="178dp">
+        android:id="@+id/textInputLayout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textView_nombre"
-            android:layout_width="414dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:hint="@string/nombre" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -23,77 +31,144 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="138dp"
         android:text="@string/guardar"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="678dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="57dp"
         android:layout_height="55dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/perfil"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="45dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="119dp"
         android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="15dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/preferencias"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        android:autofillHints="" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/autocad"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/tresdsmax"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="477dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="324dp"
         android:text="@string/illustrator"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
 
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/photoshop"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBox5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintVertical_bias="0.043" />
 
-    <CheckBox
-        android:id="@+id/checkBox5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/revit"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="477dp" />
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="55dp"
         android:text="@string/corel"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="538dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/revit"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
