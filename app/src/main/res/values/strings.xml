@@ -2,12 +2,63 @@
     <string name="app_name">curriculApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">curriculApp</string>
+    <string name="nav_header_subtitle">2021 edub_IT</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuración</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Menu</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_miscursos">Mis cursos</string>
+    <string name="menu_optativas">Optativas</string>
+    <string name="menu_electivas">Electivas</string>
+    <string name="menu_informacion">Información</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_agregar">Agregar</string>
+
+    ##optativas de inicio
+    <string name="op_inicio_subtit">De inicio</string>
+    <string name="op_inicio_dic">Diccionario operativo de recursos arquitectónicos</string>
+    <string name="op_inicio_pal">El proyecto de arquitectura y luz</string>
+    <string name="op_inicio_hibdig">Hibridación digital - Ideación y diseño | 1er y 2do sem</string>
+    <string name="op_inicio_lab">Laboratorio proyecto y materia</string>
+    <string name="op_inicio_mecymap">Mecanismos y mapeos</string>
+    <string name="op_inicio_metod">Metodologías proyectuales</string>
+    <string name="op_inicio_mpc">Métodos y procesos creativos</string>
+    <string name="op_inicio_pm">Pocitos moderno</string>
+    <string name="op_inicio_popsup">Pops-up, pequeños dispositivos de uso cotidiano</string>
+    <string name="op_inicio_posp_dig">Posproducción digital en el dibujo de la arquitectura | 1er y 2do sem</string>
+    <string name="op_inicio_acv">Re-Presentaciones. Arte y cultura visual (SXIX-XX-XXI)</string>
+    <string name="op_inicio_tap">Taller de arquitectura potencial</string>
+
+    ##optativas libres
+    <string name="op_libres_subtit">Libres</string>
+    <string name="op_libres_ai3">Acondicionamiento e Instalaciones 3</string>
+    <string name="op_libres_amb_esc">Ambientes escolares</string>
+    <string name="op_libres_ae_gruphab">Análisis y evaluación de grupos habitacionales</string>
+    <string name="op_libres_arq_uru">Arquitectos uruguayos</string>
+    <string name="op_libres_arq_dig">Arquitecturas digitales</string>
+    <string name="op_libres_agua_ciudad">Bordes agua-ciudad como espacio de intercambio</string>
+    <string name="op_libres_cyd_made">Construcción y diseño de madera</string>
+    <string name="op_libres_coop">Cooperativas de vivienda</string>
+    <string name="op_libres_croquis">Croquis: el dibujo a pulso | 1er y 2do sem</string>
+    <string name="op_libres_eco_urb">Economía urbana avanzada</string>
+    <string name="op_libres_ficc_pol">Ficciones políticas. Géneros, aspectos y territorios</string>
+    <string name="op_libres_foro">Foro</string>
+    <string name="op_libres_gest_prod">Gestión y producción de obra</string>
+    <string name="op_libres_lab_mest">Laboratorio de morfologías estructurales</string>
+    <string name="op_libres_matrix">Matrix</string>
+    <string name="op_libres_patol">Patologías frecuentes en la construcción</string>
+    <string name="op_libres_pre_proy">Precisión proyectual</string>
+    <string name="op_libres_prof_ae">Profundización en el análisis estructural</string>
+    <string name="op_libres_proy_amb">Proyectar ambiente</string>
+    <string name="op_libres_proy_av">Proyecto avanzado de estructuras</string>
+    <string name="op_libres_re_act">Re Activa</string>
+    <string name="op_libres_sal_lab_emer">Salida, laboratorio de emergencia</string>
+    <string name="op_libres_zipp">Zipped</string>
+
+
 </resources>
