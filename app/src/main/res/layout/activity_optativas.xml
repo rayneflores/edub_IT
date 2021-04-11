@@ -20,10 +20,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Optativas"
+        android:text="@string/menu_optativas"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="110dp"
-        tools:ignore="MissingConstraints"
+        tools:ignore="LabelFor,MissingConstraints"
         android:importantForAutofill="no" />
 
     <TextView
