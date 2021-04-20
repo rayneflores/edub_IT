@@ -6,6 +6,19 @@
     <string name="nav_header_subtitle">2021 edub_IT</string>
     <string name="nav_header_desc">Navigation header</string>
 
+
+    #mis-cursos             
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="mi_progreso">Mi progreso</string>
+    <string name="mi_planificador">Mi planificador</string>
+    <string name="mapa_curricular">Mapa curricular</string>
+    <string name="quiero_cursar">Quiero cursar</string>
+    <string name="aprobe">Aprobé</string>
+    <string name="quiero_inscribirme">Quiero inscribirme</string>
+    <string name="ir_a_mapa_curricular">Ir a mapa curricular</string>
     <string name="action_settings">Configuración</string>
 
     ##optativas de inicio
