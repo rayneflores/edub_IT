@@ -12,6 +12,26 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
+    #configuracion            
+    string name="configuraci_n">Configuración</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="inicio_de_inscripciones_a_examenes">Inicio de inscripciones a examenes</string>
+    <string name="inicio_de_inscripciones_a_cursos">Inicio de inscripciones a cursos</string>
+    <string name="tema">Tema</string>
+    <string name="claro">Claro</string>
+    <string name="oscuro">Oscuro</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="ltima_actualizaci_n_3_de_mayo_2021">Última actualización: 3 de Mayo 2021</string>
+    <string name="contactanos">Contactanos</string>
+    <string name="curriculapp_gmail_com">curriculapp@gmail.com</string>
+    <string name="claro_oscuro">Claro/Oscuro</string>
+    <string name="tema_1">tema 1</string>
+    <string name="tema_2">tema 2</string>
+    <string name="tema_1">tema 1</string>
+    <string name="tema_2">tema 2</string>
+    <string name="tema_3">tema 3</string>
+
+    #mis-cursos
     <string name="mi_progreso">Mi progreso</string>
     <string name="mi_planificador">Mi planificador</string>
     <string name="mapa_curricular">Mapa curricular</string>
@@ -73,7 +93,5 @@
     <string name="photoshop">Photoshop</string>
     <string name="revit">Revit</string>
     <string name="corel">Corel</string>
-
-
 
 </resources>
