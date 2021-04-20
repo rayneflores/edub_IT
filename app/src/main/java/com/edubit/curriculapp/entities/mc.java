@@ -2,9 +2,10 @@ package com.edubit.curriculapp.entities;
 
 import androidx.room.Entity;
 
-@Entity
+@Entity(primaryKeys = {"id"})
 public class mc {
-    private int id;
+
+    public int id ;
     private String nombre;
     private int creditos;
     private int area;

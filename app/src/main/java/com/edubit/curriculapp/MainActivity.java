@@ -71,22 +71,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
         case R.id.nav_perfil:
-            Toast.makeText(getApplicationContext(), R.string.menu_perfil, Toast.LENGTH_LONG). show();
+            Toast.makeText(getApplicationContext(), R.string.menu_perfil, Toast.LENGTH_LONG).show();
             break;
         case R.id.nav_miscursos:
-            Toast.makeText(getApplicationContext(), R.string.menu_miscursos, Toast.LENGTH_LONG). show();
+            Toast.makeText(getApplicationContext(), R.string.menu_miscursos, Toast.LENGTH_LONG).show();
             break;
         case R.id.nav_optativas:
-            Toast.makeText(getApplicationContext(), R.string.menu_optativas, Toast.LENGTH_LONG). show();
+            Toast.makeText(getApplicationContext(), R.string.menu_optativas, Toast.LENGTH_LONG).show();
             break;
         case R.id.nav_electivas:
-            Toast.makeText(getApplicationContext(), R.string.menu_electivas, Toast.LENGTH_LONG). show();
+            Toast.makeText(getApplicationContext(), R.string.menu_electivas, Toast.LENGTH_LONG).show();
             break;
         case R.id.nav_informacion:
-            Toast.makeText(getApplicationContext(), R.string.menu_informacion, Toast.LENGTH_LONG). show();
+            Toast.makeText(getApplicationContext(), R.string.menu_informacion, Toast.LENGTH_LONG).show();
             break;
         case R.id.nav_configuracion:
-            Toast.makeText(getApplicationContext(), R.string.menu_configuracion, Toast.LENGTH_LONG). show();
+            Toast.makeText(getApplicationContext(), R.string.menu_configuracion, Toast.LENGTH_LONG).show();
             break;
         default:
             throw new IllegalArgumentException("Opción no existente");

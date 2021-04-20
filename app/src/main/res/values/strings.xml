@@ -13,7 +13,7 @@
     <string name="menu_slideshow">Slideshow</string>
 
     #configuracion            
-    string name="configuraci_n">Configuración</string>
+    <string name="configuraci_n">Configuración</string>
     <string name="notificaciones">Notificaciones</string>
     <string name="inicio_de_inscripciones_a_examenes">Inicio de inscripciones a examenes</string>
     <string name="inicio_de_inscripciones_a_cursos">Inicio de inscripciones a cursos</string>
@@ -25,8 +25,6 @@
     <string name="contactanos">Contactanos</string>
     <string name="curriculapp_gmail_com">curriculapp@gmail.com</string>
     <string name="claro_oscuro">Claro/Oscuro</string>
-    <string name="tema_1">tema 1</string>
-    <string name="tema_2">tema 2</string>
     <string name="tema_1">tema 1</string>
     <string name="tema_2">tema 2</string>
     <string name="tema_3">tema 3</string>
@@ -93,5 +91,14 @@
     <string name="photoshop">Photoshop</string>
     <string name="revit">Revit</string>
     <string name="corel">Corel</string>
+
+    ## Menu
+    <string name="menu_miscursos">Mis cursos</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_optativas">Optativas</string>
+    <string name="menu_electivas">Electivas</string>
+    <string name="menu_informacion">Informacion</string>
+    <string name="menu_configuracion">Configuracion</string>
+
 
 </resources>
