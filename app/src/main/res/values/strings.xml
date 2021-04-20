@@ -5,19 +5,8 @@
     <string name="nav_header_title">curriculApp</string>
     <string name="nav_header_subtitle">2021 edub_IT</string>
     <string name="nav_header_desc">Navigation header</string>
+
     <string name="action_settings">Configuración</string>
-
-    <string name="menu_home">Menu</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-
-    <string name="menu_perfil">Perfil</string>
-    <string name="menu_miscursos">Mis cursos</string>
-    <string name="menu_optativas">Optativas</string>
-    <string name="menu_electivas">Electivas</string>
-    <string name="menu_informacion">Información</string>
-    <string name="menu_configuracion">Configuración</string>
-    <string name="menu_agregar">Agregar</string>
 
     ##optativas de inicio
     <string name="op_inicio_subtit">De inicio</string>
