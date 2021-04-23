@@ -24,9 +24,39 @@
     <string name="ltima_actualizaci_n_3_de_mayo_2021">Última actualización: 3 de Mayo 2021</string>
     <string name="contactanos">Contactanos</string>
     <string name="curriculapp_gmail_com">curriculapp@gmail.com</string>
+
     <string name="claro_oscuro">Claro/Oscuro</string>
     <string name="tema_1">Tema 1</string>
     <string name="tema_2">Tema 2</string>
+
+    #Informacion
+    <string name="informaci_n">Información</string>
+    <string name="institucional">Institucional</string>
+    <string name="string_institucional">institucional</string>
+    <string name="institucional">Institucional</string>
+    <string name="bedel_a">Bedelía:</string>
+    <string name="string_bedel_a">Bedelia</string>
+    <string name="bedelia">Bedelía:</string>
+    <string name="whatsapp_bedelia">WhatsApp: 092 294 056</string>
+    <string name="string_whatsapp_bedelia">WhatsApp: 092 294 056</string>
+    <string name="telefono_bedelia">"Tel: 2408 7569 "</string>
+    <string name="tel_bedelia">Tel: 2408 7569</string>
+    <string name="telefonos_bedelia">Tel: 2408 7569 ó 2400 11 06 int. 132</string>
+    <string name="mail_bedelia">Mail: bedelia@fadu.edu.uy</string>
+    <string name="biblioteca">Biblioteca:</string>
+    <string name="string_biblioteca">Biblioteca:</string>
+    <string name="whatsapp_biblioteca">WhatsApp: 092 502 324</string>
+    <string name="mail_biblioteca">Mail: prestamo@fadu.edu.uy</string>
+    <string name="string_mail_biblioteca">Mail: prestamo@fadu.edu.uy</string>
+    <string name="centros_de_estudiantes">Centros de Estudiantes:</string>
+    <string name="string_centros_de_estudiantes">Centros de Estudiantes:</string>
+    <string name="cgu_instagram">Cgu: https://instagram.com/cgu_fadu</string>
+    <string name="string_cgu_instagram">"Cgu: https://instagram.com/cgu_fadu "</string>
+    <string name="cgu_instagram">Cgu: https://instagram.com/cgu_fadu</string>
+    <string name="ceda_instagram">Ceda: https://instagram.com/cedaasceepfeuu</string>
+    <string name="SAE">Sistema de Atención al Estudiante (SAE):</string>
+    <string name="mail_sae">atencionalestudiante@fadu.edu.uy</string>
+    <string name="aviso_fadu">Atención al público: Sin atención presencial al público hasta nuevo aviso, con modalidad de teletrabajo, comunicarse por correo electrónico o WhatsApp. Para trámites que lo requieran, se atenderá en forma presencial únicamente a través de la agenda web (agendaweb.udelar.edu.uy)</string>
 
     #mis-cursos
     <string name="miscur">Mis Cursos</string>
@@ -110,5 +140,5 @@
     <string name="transv_1">Transversal 1: sustentabilidad</string>
     <string name="guardado">Guardar</string>
     <string name="save">¡GUARDADO!</string>
-
+  
 </resources>
