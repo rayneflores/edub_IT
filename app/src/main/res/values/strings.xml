@@ -25,9 +25,8 @@
     <string name="contactanos">Contactanos</string>
     <string name="curriculapp_gmail_com">curriculapp@gmail.com</string>
     <string name="claro_oscuro">Claro/Oscuro</string>
-    <string name="tema_1">tema 1</string>
-    <string name="tema_2">tema 2</string>
-    <string name="tema_3">tema 3</string>
+    <string name="tema_1">Tema 1</string>
+    <string name="tema_2">Tema 2</string>
 
     #mis-cursos
     <string name="miscur">Mis Cursos</string>

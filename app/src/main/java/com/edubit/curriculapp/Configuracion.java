@@ -42,17 +42,9 @@ public class Configuracion extends AppCompatActivity {
         });
 
 
-        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String primaryDark = "ba4c00";
-                String primary = "f47b00";
-                String background = "dadada";
-                cambiarColor(primaryDark,primary,background);
 
 
-            }
-        });
+
 
 
     }
