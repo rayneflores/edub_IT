@@ -6,227 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Informacion">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="619dp"
-        android:text="@string/informaci_n"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="263dp"
-        android:layout_marginBottom="568dp"
-        android:text="@string/institucional"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="282dp"
-        android:layout_marginBottom="528dp"
-        android:text="@string/bedelia"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="499dp"
-        android:text="@string/string_whatsapp_bedelia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="467dp"
-        android:text="@string/telefonos_bedelia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="434dp"
-        android:text="@string/mail_bedelia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView25" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="266dp"
-        android:layout_marginBottom="396dp"
-        android:text="@string/string_biblioteca"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
-
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="116dp"
-        android:layout_marginBottom="361dp"
-        android:text="@string/whatsapp_biblioteca"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="328dp"
-        android:text="@string/string_mail_biblioteca"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="175dp"
-        android:layout_marginBottom="288dp"
-        android:text="@string/string_centros_de_estudiantes"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView32" />
-
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="256dp"
-        android:text="@string/cgu_instagram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="232dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="197dp"
-        android:text="@string/ceda_instagram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView36" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="160dp"
-        android:text="@string/SAE"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView37" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="121dp"
-        android:text="@string/mail_sae"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView38" />
-
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="289dp"
-        android:layout_height="87dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="87dp"
-        android:layout_marginBottom="16dp"
-        android:gravity="center_horizontal"
-        android:text="@string/aviso_fadu"
-        android:textSize="12sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
-
     <include
         android:id="@+id/include"
         layout="@layout/app_bar_main"
@@ -234,5 +13,135 @@
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informaci_n"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/institucional"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bedelia"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_whatsapp_bedelia"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefonos_bedelia"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_bedelia"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_biblioteca"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whatsapp_biblioteca"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_mail_biblioteca"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_centros_de_estudiantes"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cgu_instagram"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="232dp"
+        android:layout_height="41dp"
+        android:text="@string/ceda_instagram"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SAE"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_sae"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="289dp"
+        android:layout_height="87dp"
+        android:gravity="center_horizontal"
+        android:text="@string/aviso_fadu"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="629dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
