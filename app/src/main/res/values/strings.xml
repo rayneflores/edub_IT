@@ -30,6 +30,7 @@
     <string name="tema_3">tema 3</string>
 
     #mis-cursos
+    <string name="miscur">Mis Cursos</string>
     <string name="mi_progreso">Mi progreso</string>
     <string name="mi_planificador">Mi planificador</string>
     <string name="mapa_curricular">Mapa curricular</string>
