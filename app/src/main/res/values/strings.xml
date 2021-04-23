@@ -49,9 +49,8 @@
     <string name="string_mail_biblioteca">Mail: prestamo@fadu.edu.uy</string>
     <string name="centros_de_estudiantes">Centros de Estudiantes:</string>
     <string name="string_centros_de_estudiantes">Centros de Estudiantes:</string>
-    <string name="cgu_instagram">Cgu: https://instagram.com/cgu_fadu</string>
-    <string name="string_cgu_instagram">"Cgu: https://instagram.com/cgu_fadu "</string>
-    <string name="ceda_instagram">Ceda: https://instagram.com/cedaasceepfeuu</string>
+    <string name="string_cgu_instagram">CGU: instagram: /cgu_fadu "</string>
+    <string name="ceda_instagram">CEDA: instagram /cedaasceepfeuu</string>
     <string name="SAE">Sistema de Atención al Estudiante (SAE):</string>
     <string name="mail_sae">atencionalestudiante@fadu.edu.uy</string>
     <string name="aviso_fadu">Atención al público: Sin atención presencial al público hasta nuevo aviso, con modalidad de teletrabajo, comunicarse por correo electrónico o WhatsApp. Para trámites que lo requieran, se atenderá en forma presencial únicamente a través de la agenda web (agendaweb.udelar.edu.uy)</string>
@@ -111,7 +110,7 @@
   
     #perfil
     <string name="perfil">Perfil</string>
-    <string name="nombre">Nombre</string>
+    <string name="nombre"></string>
     <string name="preferencias">Preferencias</string>
     <string name="guardar">GUARDAR</string>
     <string name="autocad">Autocad</string>
@@ -139,5 +138,14 @@
     <string name="transv_1">Transversal 1: sustentabilidad</string>
     <string name="guardado">Guardar</string>
     <string name="save">¡GUARDADO!</string>
+
+    # Electivas
+    <string name="electivas">Electivas</string>
+    <string name="ecolog_gral">Ecología general (FCien)</string>
+    <string name="cien_tec_y_soc">Ciencia, Tecnología y Sociedad (FIng)</string>
+    <string name="metodos_cuant">Métodos Cuantitativos (FAgro)</string>
+    <string name="epistem">Epistemología (FQ)</string>
+    <string name="prop_intelec">Propiedad Intelectual (FQ)</string>
+    <string name="ingl_cient">Inglés Científico (FQ)</string>
 
 </resources>

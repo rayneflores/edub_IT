@@ -11,137 +11,244 @@
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="613dp"
         android:text="@string/informaci_n"
+        android:textColor="?attr/colorSecondary"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="559dp"
         android:text="@string/institucional"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="142dp" />
+        android:textColor="?attr/colorSecondary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="527dp"
         android:text="@string/bedelia"
-        android:textSize="15sp"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="182dp" />
+        android:textColor="?attr/colorSecondary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="499dp"
         android:text="@string/string_whatsapp_bedelia"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="213dp" />
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="467dp"
         android:text="@string/telefonos_bedelia"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="245dp" />
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="435dp"
         android:text="@string/mail_bedelia"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="278dp" />
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="392dp"
         android:text="@string/string_biblioteca"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="317dp" />
+        android:textColor="?attr/colorSecondary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="356dp"
         android:text="@string/whatsapp_biblioteca"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="350dp" />
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="328dp"
         android:text="@string/string_mail_biblioteca"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="284dp"
         android:text="@string/string_centros_de_estudiantes"
-        android:textSize="15sp"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="423dp" />
+        android:textColor="?attr/colorSecondary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cgu_instagram"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="456dp" />
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="255dp"
+        android:text="@string/string_cgu_instagram"
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="232dp"
-        android:layout_height="41dp"
+        android:layout_width="230dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="209dp"
         android:text="@string/ceda_instagram"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="491dp" />
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="554dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="153dp"
         android:text="@string/SAE"
-        android:textSize="15sp"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="552dp" />
+        android:textColor="?attr/colorSecondary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="588dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="124dp"
         android:text="@string/mail_sae"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="588dp" />
-
+        android:textColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView40"
         android:layout_width="289dp"
         android:layout_height="87dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
         android:text="@string/aviso_fadu"
-        android:textSize="12sp"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="11sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
