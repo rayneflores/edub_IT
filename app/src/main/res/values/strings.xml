@@ -69,7 +69,8 @@
     <string name="ir_a_mapa_curricular">Ir a mapa curricular</string>
     <string name="action_settings">Configuración</string>
 
-    ##optativas de inicio
+
+        ##optativas de inicio
     <string name="op_inicio_subtit">De inicio</string>
     <string name="op_inicio_dic">Diccionario operativo de recursos arquitectónicos</string>
     <string name="op_inicio_pal">El proyecto de arquitectura y luz</string>
@@ -84,7 +85,7 @@
     <string name="op_inicio_acv">Re-Presentaciones. Arte y cultura visual (SXIX-XX-XXI)</string>
     <string name="op_inicio_tap">Taller de arquitectura potencial</string>
 
-    ##optativas libres
+        ##optativas libres
     <string name="op_libres_subtit">Libres</string>
     <string name="op_libres_ai3">Acondicionamiento e Instalaciones 3</string>
     <string name="op_libres_amb_esc">Ambientes escolares</string>
@@ -109,8 +110,8 @@
     <string name="op_libres_re_act">Re Activa</string>
     <string name="op_libres_sal_lab_emer">Salida, laboratorio de emergencia</string>
     <string name="op_libres_zipp">Zipped</string>
-
-    ##perfil
+  
+    #perfil
     <string name="perfil">Perfil</string>
     <string name="nombre">Nombre</string>
     <string name="preferencias">Preferencias</string>
@@ -122,7 +123,7 @@
     <string name="revit">Revit</string>
     <string name="corel">Corel</string>
 
-    ## Menu
+    # Menu
     <string name="menu_miscursos">Mis cursos</string>
     <string name="menu_perfil">Perfil</string>
     <string name="menu_optativas">Optativas</string>
@@ -130,7 +131,7 @@
     <string name="menu_informacion">Informacion</string>
     <string name="menu_configuracion">Configuracion</string>
 
-    ## Mapa Curricular
+    # Mapa Curricular
     <string name="map_curric">Mapa curricular</string>
     <string name="in_arq">Iniciación a la arquitectura</string>
     <string name="tec_integ">Tecnología integrada</string>
@@ -140,5 +141,5 @@
     <string name="transv_1">Transversal 1: sustentabilidad</string>
     <string name="guardado">Guardar</string>
     <string name="save">¡GUARDADO!</string>
-  
+
 </resources>
