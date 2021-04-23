@@ -108,7 +108,7 @@
     <string name="pyr1">Proyecto y representación 1</string>
     <string name="pyr2">Proyecto y representación 2</string>
     <string name="transv_1">Transversal 1: sustentabilidad</string>
-
-
+    <string name="guardado">Guardar</string>
+    <string name="save">¡GUARDADO!</string>
 
 </resources>
