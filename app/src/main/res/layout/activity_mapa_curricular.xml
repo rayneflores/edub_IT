@@ -6,69 +6,117 @@
     android:layout_height="match_parent"
     tools:context=".MapaCurricular">
 
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/app_bar_main"
+        android:layout_width="435dp"
+        android:layout_height="867dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
+        android:layout_width="265dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="605dp"
+        android:hint="@string/map_curric"
         android:inputType="textPersonName"
-        android:text="Mapa Curricular"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="110dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciación a la arquitectura"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="183dp" />
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="554dp"
+        android:text="@string/in_arq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/switch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tecnología integrada"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="231dp" />
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="497dp"
+        android:text="@string/tec_integ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/switch3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Acondicionamiento natural"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="282dp" />
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="444dp"
+        android:text="@string/acond_nat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/switch4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proyecto y representación 1"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="389dp"
+        android:text="@string/pyr1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/switch5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proyecto y representación 2"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="327dp"
+        android:text="@string/pyr2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/switch6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Transversal 1: sustentabilidad"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="432dp" />
-
-    <include
-        layout="@layout/app_bar_main"
-        android:layout_width="435dp"
-        android:layout_height="867dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="269dp"
+        android:text="@string/transv_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

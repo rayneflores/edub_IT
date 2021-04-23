@@ -100,5 +100,15 @@
     <string name="menu_informacion">Informacion</string>
     <string name="menu_configuracion">Configuracion</string>
 
+    ## Mapa Curricular
+    <string name="map_curric">Mapa curricular</string>
+    <string name="in_arq">Iniciación a la arquitectura</string>
+    <string name="tec_integ">Tecnología integrada</string>
+    <string name="acond_nat">Acondicionamiento natural</string>
+    <string name="pyr1">Proyecto y representación 1</string>
+    <string name="pyr2">Proyecto y representación 2</string>
+    <string name="transv_1">Transversal 1: sustentabilidad</string>
+
+
 
 </resources>

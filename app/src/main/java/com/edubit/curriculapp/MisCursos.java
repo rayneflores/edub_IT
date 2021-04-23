@@ -2,7 +2,11 @@ package com.edubit.curriculapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
 
 public class MisCursos extends AppCompatActivity {
 
@@ -27,4 +31,8 @@ startActivity(i);
 });
     */
 
+    public void goToMapa(View view) {
+        //Toast.makeText(getApplicationContext(), R.string.menu_perfil, Toast.LENGTH_LONG).show();
+        startActivity(new Intent(this, MapaCurricular.class));
+    }
 }

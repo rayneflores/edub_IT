@@ -24,6 +24,7 @@
             android:id="@+id/textView_nombre"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:textColor="?attr/colorSecondary"
             android:hint="@string/nombre" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -41,6 +42,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
 
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="152dp" />
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="57dp"
@@ -52,6 +60,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/perfil"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +78,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/preferencias"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/checkBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,6 +94,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="10dp"
         android:text="@string/autocad"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/checkBox2"
         app:layout_constraintEnd_toStartOf="@+id/checkBox4"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,6 +109,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="10dp"
         android:text="@string/tresdsmax"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/checkBox3"
         app:layout_constraintEnd_toStartOf="@+id/checkBox5"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,6 +124,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="324dp"
         android:text="@string/illustrator"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/checkBox6"
         app:layout_constraintHorizontal_bias="0.0"
@@ -127,20 +140,12 @@
         android:layout_marginEnd="110dp"
         android:layout_marginBottom="10dp"
         android:text="@string/photoshop"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/checkBox5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         app:layout_constraintVertical_bias="0.043" />
-
-    <include
-        layout="@layout/app_bar_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
     <CheckBox
@@ -152,6 +157,7 @@
         android:layout_marginEnd="154dp"
         android:layout_marginBottom="55dp"
         android:text="@string/corel"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox3"
@@ -166,6 +172,7 @@
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="30dp"
         android:text="@string/revit"
+        android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/checkBox6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox2"
