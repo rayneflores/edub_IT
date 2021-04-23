@@ -33,7 +33,6 @@
     <string name="informaci_n">Información</string>
     <string name="institucional">Institucional</string>
     <string name="string_institucional">institucional</string>
-    <string name="institucional">Institucional</string>
     <string name="bedel_a">Bedelía:</string>
     <string name="string_bedel_a">Bedelia</string>
     <string name="bedelia">Bedelía:</string>
@@ -52,7 +51,6 @@
     <string name="string_centros_de_estudiantes">Centros de Estudiantes:</string>
     <string name="cgu_instagram">Cgu: https://instagram.com/cgu_fadu</string>
     <string name="string_cgu_instagram">"Cgu: https://instagram.com/cgu_fadu "</string>
-    <string name="cgu_instagram">Cgu: https://instagram.com/cgu_fadu</string>
     <string name="ceda_instagram">Ceda: https://instagram.com/cedaasceepfeuu</string>
     <string name="SAE">Sistema de Atención al Estudiante (SAE):</string>
     <string name="mail_sae">atencionalestudiante@fadu.edu.uy</string>
