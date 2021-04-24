@@ -9,8 +9,8 @@
 
     <include
         layout="@layout/app_bar_main"
-        android:layout_width="440dp"
-        android:layout_height="763dp"
+        android:layout_width="486dp"
+        android:layout_height="783dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -33,7 +33,7 @@
             android:layout_height="match_parent"
             android:hint="@string/nombre"
             android:textColor="?attr/colorSecondary"
-            android:textSize="16sp" />
+            android:textSize="12sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -65,6 +65,7 @@
         android:text="@string/perfil"
         android:textColor="?attr/colorSecondary"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,6 +86,7 @@
         android:text="@string/preferencias"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,6 +103,7 @@
         android:text="@string/autocad"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -117,6 +120,7 @@
         android:text="@string/tresdsmax"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,6 +137,7 @@
         android:text="@string/illustrator"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -149,6 +154,7 @@
         android:text="@string/photoshop"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -165,6 +171,7 @@
         android:text="@string/corel"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -181,6 +188,7 @@
         android:text="@string/revit"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
