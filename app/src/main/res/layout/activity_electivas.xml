@@ -18,10 +18,8 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="153dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="178dp"
-        android:layout_marginBottom="580dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="615dp"
         android:text="@string/electivas"
         android:textColor="?attr/colorSecondary"
         android:textSize="20sp"
@@ -31,117 +29,139 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Switch
-        android:id="@+id/switch7"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lle1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="209dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginBottom="495dp"
-        android:text="@string/ecolog_gral"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ecolog_gral"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swEeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch10"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lle2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="392dp"
-        android:layout_marginEnd="170dp"
-        android:layout_marginBottom="312dp"
-        android:text="@string/epistem"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lle1"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cien_tec_y_soc"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swEcts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch11"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lle3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="456dp"
-        android:layout_marginEnd="114dp"
-        android:layout_marginBottom="248dp"
-        android:text="@string/prop_intelec"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lle2"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/metodos_cuant"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swEmc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch12"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lle4"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="511dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="193dp"
-        android:text="@string/ingl_cient"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lle3"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/epistem"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swEep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch8"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lle5"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="275dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="429dp"
-        android:text="@string/cien_tec_y_soc"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lle4"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prop_intelec"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swEpi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch9"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lle6"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="334dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="370dp"
-        android:text="@string/metodos_cuant"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lle5"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ingl_cient"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swEic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnSaveElec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="153dp"
-        android:layout_marginTop="570dp"
-        android:layout_marginEnd="154dp"
-        android:layout_marginBottom="113dp"
-        android:onClick="saveTostElectivas"
+        android:layout_marginTop="536dp"
+        android:layout_marginBottom="147dp"
+        android:onClick="updateElectivas"
         android:text="@string/guardado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

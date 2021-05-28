@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MapaCurricular">
 
-
     <include
         android:id="@+id/include2"
         layout="@layout/app_bar_main"
@@ -20,135 +19,156 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="554dp"
-        android:text="@string/in_arq"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="207dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="497dp"
-        android:text="@string/tec_integ"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Switch
-        android:id="@+id/switch3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="444dp"
-        android:text="@string/acond_nat"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Switch
-        android:id="@+id/switch4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="315dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="389dp"
-        android:text="@string/pyr1"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Switch
-        android:id="@+id/switch5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="326dp"
-        android:text="@string/pyr2"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Switch
-        android:id="@+id/switch6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="435dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="269dp"
-        android:text="@string/transv_1"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginBottom="147dp"
-        android:onClick="saveTost"
-        android:text="@string/guardado"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="123dp"
         android:layout_marginTop="89dp"
-        android:layout_marginEnd="147dp"
         android:layout_marginBottom="615dp"
         android:text="@string/mapa_curricular"
         android:textColor="?attr/colorSecondary"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/in_arq"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+
+        <Switch
+            android:id="@+id/swInArq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll1"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tec_integ"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swTecInteg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll2"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/acond_nat"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swAcondNat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll3"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pyr1"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swPyr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll4"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pyr2"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swPyr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll5"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/transv_1"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swTransv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveMc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:layout_marginBottom="147dp"
+        android:onClick="updateCurrMap"
+        android:text="@string/guardado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

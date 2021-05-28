@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Perfil">
 
-
     <include
         layout="@layout/app_bar_main"
         android:layout_width="486dp"
@@ -14,86 +13,63 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textView_nombre"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="@string/nombre"
-            android:textColor="?attr/colorSecondary"
-            android:textSize="12sp" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="535dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="148dp"
-        android:onClick="saveTostPerfil"
-        android:text="@string/guardar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <TextView
+        android:id="@+id/tvtPersonName"
         android:layout_width="57dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="177dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="77dp"
-        android:layout_marginEnd="177dp"
         android:layout_marginBottom="599dp"
         android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
         android:text="@string/perfil"
         android:textColor="?attr/colorSecondary"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxBackgroundMode="none"
+        app:layout_constraintBottom_toTopOf="@+id/tvPersonName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtPersonName">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombreProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvPersonName2"
         android:layout_width="119dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="49dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="249dp"
-        android:layout_marginEnd="243dp"
         android:layout_marginBottom="433dp"
-        android:autofillHints=""
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="@string/preferencias"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cbAutocad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
@@ -110,7 +86,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/cb3D"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
@@ -127,7 +103,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/cbIllustrator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
@@ -144,7 +120,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/cbPhotoshop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="230dp"
@@ -161,7 +137,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox6"
+        android:id="@+id/cbRevit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="294dp"
+        android:text="@string/revit"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbCorel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="230dp"
@@ -177,18 +170,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <CheckBox
-        android:id="@+id/checkBox5"
+    <Button
+        android:id="@+id/btnSaveProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="230dp"
-        android:layout_marginTop="389dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="294dp"
-        android:text="@string/revit"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:layout_marginTop="535dp"
+        android:layout_marginBottom="148dp"
+        android:onClick="updateProfile"
+        android:text="@string/guardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
