@@ -14,127 +14,16 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <EditText
+    <TextView
         android:id="@+id/editText_optativas"
-        android:layout_width="166dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="604dp"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="615dp"
         android:text="@string/menu_optativas"
         android:textColor="?attr/colorSecondary"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor,MissingConstraints" />
-
-    <Switch
-        android:id="@+id/switch_optativas_incio2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="194dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="510dp"
-        android:text="@string/op_inicio_pal"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Switch
-        android:id="@+id/switch_optativas_incio5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="229dp"
-        android:layout_marginEnd="146dp"
-        android:layout_marginBottom="475dp"
-        android:text="@string/op_inicio_mecymap"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Switch
-        android:id="@+id/switch_optativas_incio7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="266dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="438dp"
-        android:text="@string/op_inicio_mpc"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Switch
-        android:id="@+id/switch_optativas_incio8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="189dp"
-        android:layout_marginBottom="400dp"
-        android:text="@string/op_inicio_pm"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Switch
-        android:id="@+id/switch_optativas_incio12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="342dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="362dp"
-        android:text="@string/op_inicio_tap"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="614dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="69dp"
-        android:onClick="saveTostOptativas"
-        android:text="@string/guardado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,126 +33,251 @@
         android:id="@+id/textView_optativas_de_inicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="173dp"
-        android:layout_marginEnd="296dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="150dp"
         android:layout_marginBottom="534dp"
         android:text="@string/op_inicio_subtit"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/llo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView_optativas_de_inicio"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_inicio_pal"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOpal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llo1"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_inicio_mecymap"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOmym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llo2"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_inicio_mpc"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOmyp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llo3"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_inicio_pm"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOpom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llo5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llo4"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_inicio_tap"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOtap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/op_libres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="385dp"
-        android:layout_marginEnd="316dp"
-        android:layout_marginBottom="322dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:text="@string/op_libres_subtit"
         android:textColor="?attr/colorSecondary"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llo5"
         tools:ignore="MissingConstraints" />
 
-    <Switch
-        android:id="@+id/switch_optativas_libres4"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/llo6"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="416dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginBottom="288dp"
-        android:text="@string/op_libres_arq_uru"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/op_libres"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_libres_arq_uru"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOaru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch_optativas_libres13"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/llo7"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="456dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="248dp"
-        android:text="@string/op_libres_gest_prod"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/llo6"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_libres_gest_prod"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOgyp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch_optativas_libres15"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/llo8"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="496dp"
-        android:layout_marginEnd="266dp"
-        android:layout_marginBottom="208dp"
-        android:text="@string/op_libres_matrix"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/llo7"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_libres_matrix"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOmat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch_optativas_libres21"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/llo9"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="573dp"
-        android:layout_marginEnd="245dp"
-        android:layout_marginBottom="131dp"
-        android:text="@string/op_libres_re_act"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/llo8"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_libres_re_act"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOrea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-    <Switch
-        android:id="@+id/switch_optativas_libres9"
+    <LinearLayout
+        android:id="@+id/llo10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llo9"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/op_libres_pre_proy"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"/>
+        <Switch
+            android:id="@+id/swOprp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveOpta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="533dp"
-        android:layout_marginEnd="167dp"
-        android:layout_marginBottom="171dp"
-        android:text="@string/op_libres_pre_proy"
-        android:textColor="?attr/colorSecondary"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:layout_marginBottom="100dp"
+        android:onClick="updateOptativas"
+        android:text="@string/guardado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -82,4 +82,33 @@ public class Utilities {
             FIELD_E_EP + " INTEGER, " +
             FIELD_E_PI + " INTEGER, " +
             FIELD_E_IC + " INTEGER)";
+
+    /*constantes tabla Optativas*/
+    public static final String TABLE_OPTATIVA = "optativa";
+    public static final String FIELD_O_ID = "oId";
+    public static final String FIELD_O_PAL = "oPal";
+    public static final String FIELD_O_MYM = "oMym";
+    public static final String FIELD_O_MYP = "oMyp";
+    public static final String FIELD_O_POM = "oPom";
+    public static final String FIELD_O_TAP = "oTap";
+    public static final String FIELD_O_ARU = "oAru";
+    public static final String FIELD_O_GYP = "oGyp";
+    public static final String FIELD_O_MAT = "oMat";
+    public static final String FIELD_O_REA = "oRea";
+    public static final String FIELD_O_PRP = "oPrp";
+
+    /*creacion tabla Optativa*/
+    public static final String CREATE_TABLE_OPTATIVA = "CREATE TABLE IF NOT EXISTS " +
+            TABLE_OPTATIVA + " (" +
+            FIELD_O_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+            FIELD_O_PAL + " INTEGER, " +
+            FIELD_O_MYM + " INTEGER, " +
+            FIELD_O_MYP + " INTEGER, " +
+            FIELD_O_POM + " INTEGER, " +
+            FIELD_O_TAP + " INTEGER, " +
+            FIELD_O_ARU + " INTEGER, " +
+            FIELD_O_GYP + " INTEGER, " +
+            FIELD_O_MAT + " INTEGER, " +
+            FIELD_O_REA + " INTEGER, " +
+            FIELD_O_PRP + " INTEGER)";
 }

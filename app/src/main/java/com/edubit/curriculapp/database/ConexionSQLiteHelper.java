@@ -20,6 +20,7 @@ public class ConexionSQLiteHelper extends SQLiteOpenHelper {
         db.execSQL(CREATE_TABLE_PROFILE);
         db.execSQL(CREATE_TABLE_CURR_MAP);
         db.execSQL(CREATE_TABLE_ELECTIVA);
+        db.execSQL(CREATE_TABLE_OPTATIVA);
     }
 
     @Override
@@ -28,6 +29,7 @@ public class ConexionSQLiteHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS profile");
         db.execSQL("DROP TABLE IF EXISTS curmap");
         db.execSQL("DROP TABLE IF EXISTS electiva");
+        db.execSQL("DROP TABLE IF EXISTS optativa");
         onCreate(db);
     }
 }

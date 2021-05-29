@@ -12,7 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.edubit.curriculapp.database.ConexionSQLiteHelper;
 import com.edubit.curriculapp.entities.CurriMap;
 
-import static com.edubit.curriculapp.Utilities.Utilities.*;
+import static com.edubit.curriculapp.Utilities.Utilities.FIELD_CM_ACO_NAT;
+import static com.edubit.curriculapp.Utilities.Utilities.FIELD_CM_IN_ARQ;
+import static com.edubit.curriculapp.Utilities.Utilities.FIELD_CM_PYR_1;
+import static com.edubit.curriculapp.Utilities.Utilities.FIELD_CM_PYR_2;
+import static com.edubit.curriculapp.Utilities.Utilities.FIELD_CM_TEC_INT;
+import static com.edubit.curriculapp.Utilities.Utilities.FIELD_CM_TRA_1;
+import static com.edubit.curriculapp.Utilities.Utilities.TABLE_CURR_MAP;
 
 public class MapaCurricular extends AppCompatActivity {
 
@@ -35,6 +41,7 @@ public class MapaCurricular extends AppCompatActivity {
         swPyr1 = findViewById(R.id.swPyr1);
         swPyr2 = findViewById(R.id.swPyr2);
         swTransv1 = findViewById(R.id.swTransv1);
+
 
         swInArq.setOnCheckedChangeListener((buttonView, isChecked) -> valSwInArq = swInArq.isChecked() ? 1 : 0);
         swTecInteg.setOnCheckedChangeListener((buttonView, isChecked) -> valSwTecInteg = swTecInteg.isChecked() ? 1 : 0);

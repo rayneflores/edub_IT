@@ -156,16 +156,14 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnSaveElec"
+        android:id="@+id/btnSaveElect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="536dp"
-        android:layout_marginBottom="147dp"
+        android:layout_marginBottom="100dp"
         android:onClick="updateElectivas"
         android:text="@string/guardado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

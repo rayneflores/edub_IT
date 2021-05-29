@@ -96,7 +96,6 @@ public class Electivas extends AppCompatActivity {
 
         db.execSQL(insert);
         db.close();
-
     }
 
     public void updateElectivas(View view) {
