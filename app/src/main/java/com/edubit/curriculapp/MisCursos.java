@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,8 @@ import static com.edubit.curriculapp.Utilities.Utilities.*;
 
 public class MisCursos extends AppCompatActivity {
 
+    Button button2, button3, button9;
+
     ProgressBar progressBar;
 
     ConexionSQLiteHelper conn;
@@ -25,6 +28,14 @@ public class MisCursos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mis_cursos);
+
+        button2 = findViewById(R.id.button2);
+        button3 = findViewById(R.id.button3);
+        button9 = findViewById(R.id.button9);
+
+        button2.setEnabled(false);
+        button3.setEnabled(false);
+        button9.setEnabled(false);
 
         progressBar = findViewById(R.id.progressBar);
 
